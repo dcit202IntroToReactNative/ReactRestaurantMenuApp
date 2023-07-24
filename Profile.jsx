@@ -21,9 +21,9 @@ const Profile = () => {
         </Text>
         <Text style={styles.sectionTitle}>Contact Information</Text>
         <Text style={styles.sectionContent}>
-          Email: john.doe@example.com{'\n'}
+          Email: movenpick@besthotel.com{'\n'}
           Phone: +1 123-456-7890{'\n'}
-          Address: 123 Main St, Anytown USA
+          Address: Chorkor, James Town
         </Text>
       </View>
     </View>
