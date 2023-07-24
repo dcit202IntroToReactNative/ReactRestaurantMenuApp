@@ -11,7 +11,7 @@ const Details = ({ route }) => {
   const { myBag, setmyBag } = React.useContext(item);
   const [num, setnum] = useState(1);
   const nav = useNavigation();
-  const content = route.params.data; // This line gets the food item data from the route parameters
+  const content = route.params.data; 
 
   return (
     <ScrollView style={{ backgroundColor: colorful.primary }}>
@@ -25,7 +25,7 @@ const Details = ({ route }) => {
       >
         <Image
           style={{ width: 250, height: 250, borderRadius: 35.5, }}
-          source={content.image} // Replaced hardcoded image source with content.image
+          source={content.image} 
         />
       </View>
 
