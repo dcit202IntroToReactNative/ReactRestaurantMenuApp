@@ -13,7 +13,6 @@ const Category = () => {
     { name: "Fruits", image: require("../assets/fruits.jpg") },
     { name: "Vegetables", image: require("../assets/vegetables.jpg") },
     { name: "Beverages", image: require("../assets/beverages.jpg") },
-
   ];
   return (
     <FlatList
