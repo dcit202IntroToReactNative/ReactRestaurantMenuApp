@@ -31,6 +31,7 @@ const Profile = () => {
   );
 };
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
