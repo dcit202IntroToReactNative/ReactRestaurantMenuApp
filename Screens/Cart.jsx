@@ -32,7 +32,7 @@ import {
           paddingHorizontal: 25,
           gap: 20,
           backgroundColor: "white",
-          flex: 1,
+          flex: 1,   
         }}
       >
         <Text style={{ fontSize: 22, fontWeight: "500" }}>
