@@ -9,8 +9,8 @@ const Profile = () => {
           style={styles.profileImage}
           source={{ uri: 'https://via.placeholder.com/150' }}
         />
-        <Text style={styles.name}>John Doe</Text>
-        <Text style={styles.bio}>Software Developer</Text>
+        <Text style={styles.name}>Portbell Shack</Text>
+        <Text style={styles.bio}>The best you've ever tasted</Text>
       </View>
       <View style={styles.body}>
         <Text style={styles.sectionTitle}>About Me</Text>
