@@ -13,7 +13,7 @@ const Profile = () => {
         <Text style={styles.bio}>The best you've ever tasted</Text>
       </View>
       <View style={styles.body}>
-        <Text style={styles.sectionTitle}>About Me</Text>
+        <Text style={styles.sectionTitle}>About Us</Text>
         <Text style={styles.sectionContent}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
           risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
