@@ -9,7 +9,6 @@ const Header = () => {
         justifyContent: "space-between",
 
         alignItems: "center",
-       
       }}
     >
       <Text style={{ fontSize: 35 }}>Menu</Text>
