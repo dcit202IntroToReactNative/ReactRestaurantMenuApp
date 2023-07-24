@@ -16,7 +16,14 @@ const Fooditems = () => {
       category: "dinner",
       description: "Experience authentic Italian cuisine with our 'Classic Margherita' Pizza! Freshly-baked thin crust topped with tangy tomato sauce, creamy mozzarella, and a sprinkle of aromatic basil leaves, it's a slice of pizza heaven!"  // Modify the path according to your actual file location
     },
-  
+    {
+      id: 2,
+      name: "Veg Pizza",
+      price: 120,
+      image: require('../assets/vegpizza.jpg'),
+      category: "dinner",
+      description: "Indulge in our 'Italian Symphony' Pizza! Bursting with fresh, vibrant flavors, artisanal cheese, and handpicked herbs, each bite is a delicious journey to the heart of Italy. Crisp, cheesy, and oh-so-tempting!",
+    }, 
 };
 
 export default Fooditems;
