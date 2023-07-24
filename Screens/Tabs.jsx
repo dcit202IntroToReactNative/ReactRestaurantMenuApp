@@ -67,5 +67,27 @@ const Tabs = () => {
             ),
         }}
       />
-
+<Tab.Screen
+        name="Cart"
+        component={Cart}
+        options={{
+          tabBarIcon: ({ focused }) =>
+            focused ? (
+              <View
+                style={{
+                  backgroundColor: colorful.primary,
+                  width: 40,
+                  height: 40,
+                  borderRadius: 30,
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Entypo name="shopping-cart" size={24} color="white" />
+              </View>
+            ) : (
+              <Feather name="shopping-cart" size={24} color="grey" />
+            ),
+        }}
+      />
 export default Tabs;
