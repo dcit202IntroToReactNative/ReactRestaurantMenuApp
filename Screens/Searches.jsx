@@ -5,7 +5,7 @@ const Searches = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = () => {
-    // Implementation of the search functionality
+    // Implementation of the search functionality to initiate it work
     console.log(`Searching for ${searchQuery}`);
   };
 
