@@ -42,7 +42,6 @@ const Category = () => {
               source={item.image}
             />
           </View>
-
           <Text
             style={{
               marginTop: 5,
