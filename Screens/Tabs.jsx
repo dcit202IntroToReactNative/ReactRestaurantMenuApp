@@ -44,7 +44,7 @@ const Tabs = () => {
             ),
         }}
       />
-      <Tab.Screen
+       <Tab.Screen
         name="Searches"
         component={Searches}
         options={{
@@ -67,54 +67,5 @@ const Tabs = () => {
             ),
         }}
       />
-      <Tab.Screen
-        name="Cart"
-        component={Cart}
-        options={{
-          tabBarIcon: ({ focused }) =>
-            focused ? (
-              <View
-                style={{
-                  backgroundColor: colorful.primary,
-                  width: 40,
-                  height: 40,
-                  borderRadius: 30,
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <Entypo name="shopping-cart" size={24} color="white" />
-              </View>
-            ) : (
-              <Feather name="shopping-cart" size={24} color="grey" />
-            ),
-        }}
-      />
-      <Tab.Screen
-        name="Profile"
-        component={Profile}
-        options={{
-          tabBarIcon: ({ focused }) =>
-            focused ? (
-              <View
-                style={{
-                  backgroundColor: colorful.primary,
-                  width: 40,
-                  height: 40,
-                  borderRadius: 30,
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <Ionicons name="person" size={24} color="white" />
-              </View>
-            ) : (
-              <Ionicons name="person-outline" size={24} color="grey" />
-            ),
-        }}
-      />
-    </Tab.Navigator>
-  );
-};
 
 export default Tabs;
